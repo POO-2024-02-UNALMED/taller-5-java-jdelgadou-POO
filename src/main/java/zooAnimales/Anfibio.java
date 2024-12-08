@@ -7,6 +7,7 @@ public class Anfibio extends Animal {
     private String colorPiel="None";
     private Boolean venenoso=false;
     public Anfibio(){
+        super("nombre",0,"habitat","genero");
         listado.add(this);
     }
 

@@ -7,6 +7,7 @@ public class Pez extends Animal{
     private String colorEscamas="None";
     private int cantidadAletas=0;
     public Pez(){
+        super("nombre",3,"habitat","genero");
         listado.add(this);
     }
 

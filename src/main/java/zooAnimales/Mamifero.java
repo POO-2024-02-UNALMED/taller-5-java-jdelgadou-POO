@@ -8,6 +8,7 @@ public class Mamifero extends Animal{
     private int patas=0;
 
     public Mamifero(){
+        super("nombre",3,"habitat","genero");
         listado.add(this);
     }
 

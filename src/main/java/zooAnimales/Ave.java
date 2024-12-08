@@ -6,6 +6,7 @@ public class Ave extends Animal{
     public static int aguilas;
     private String colorPlumas="None";
     public Ave(){
+        super("nombre",3,"habitat","genero");
         listado.add(this);
     }
 
