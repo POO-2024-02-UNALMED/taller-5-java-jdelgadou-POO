@@ -22,14 +22,16 @@ public class Mamifero extends Animal{
         return listado.size()-1;
     }
 
-    public static void crearCaballo(String x, int y, String z){
-        new Mamifero(x, y, "pradera", z, true, 4);
+    public static Mamifero crearCaballo(String x, int y, String z){
+        Mamifero m=new Mamifero(x, y, "pradera", z, true, 4);
         caballos+=1;
+        return m;
     }
 
-    public static void crearLeon(String x, int y, String z){
-        new Mamifero(x, y, "selva", z, true, 4);
+    public static Mamifero crearLeon(String x, int y, String z){
+        Mamifero m=new Mamifero(x, y, "selva", z, true, 4);
         leones+=1;
+        return m;
     }
 
     public void setListado(ArrayList<Mamifero> listado) {

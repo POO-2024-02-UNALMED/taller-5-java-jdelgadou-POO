@@ -25,14 +25,16 @@ public class Reptil extends Animal{
         return "reptar";
     }
 
-    public static void crearIguana(String x, int y, String z){
-        new Reptil(x,y,"humedal",z,"verde",3);
+    public static Reptil crearIguana(String x, int y, String z){
+        Reptil r=new Reptil(x,y,"humedal",z,"verde",3);
         iguanas+=1;
+        return r;
     }
 
-    public static void crearSerpiente(String x, int y, String z){
-        new Reptil(x,y,"jungla",z,"blanco",1);
+    public static Reptil crearSerpiente(String x, int y, String z){
+        Reptil r=new Reptil(x,y,"jungla",z,"blanco",1);
         serpientes+=1;
+        return r;
     }
 
     public void setListado(ArrayList<Reptil> listado){

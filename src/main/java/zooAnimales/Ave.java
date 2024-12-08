@@ -23,14 +23,16 @@ public class Ave extends Animal{
         return "volar";
     }
 
-    public static void crearHalcon(String x, int y, String z){
-        new Ave(x,y,"montañas",z,"café glorioso");
+    public static Ave crearHalcon(String x, int y, String z){
+        Ave a=new Ave(x,y,"montanas",z,"cafe glorioso");
         halcones+=1;
+        return a;
     }
 
-    public static void crearAguila(String x, int y, String z){
-        new Ave(x,y,"montañas",z,"blanco y amarrillo");
+    public static Ave crearAguila(String x, int y, String z){
+        Ave a= new Ave(x,y,"montanas",z,"blanco y amarrillo");
         aguilas+=1;
+        return a;
     }
 
     public void setListado(ArrayList<Ave> listado){
