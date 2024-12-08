@@ -4,7 +4,7 @@ public class Ave extends Animal{
     private ArrayList<Ave> listado;
     public static int halcones;
     public static int aguilas;
-    private String colorPlumas;
+    private String colorPlumas="None";
     public Ave(){
         listado.add(this);
     }

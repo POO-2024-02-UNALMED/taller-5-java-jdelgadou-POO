@@ -4,8 +4,8 @@ public class Anfibio extends Animal {
     private ArrayList<Anfibio> listado;
     public static int ranas;
     public static int salamandras;
-    private String colorPiel;
-    private Boolean venenoso;
+    private String colorPiel="None";
+    private Boolean venenoso=false;
     public Anfibio(){
         listado.add(this);
     }

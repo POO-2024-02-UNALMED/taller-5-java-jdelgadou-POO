@@ -4,8 +4,8 @@ public class Reptil extends Animal{
     private ArrayList<Reptil> listado;
     public static int iguanas;
     public static int serpientes;
-    private String colorEscamas;
-    private int largoCola;
+    private String colorEscamas="none";
+    private int largoCola=0;
     public Reptil(){
         listado.add(this);
     }

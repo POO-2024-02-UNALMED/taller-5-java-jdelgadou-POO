@@ -3,10 +3,10 @@ package zooAnimales;
 import gestion.*;
 public class Animal {
     private static int totalAnimales;
-    String nombre;
-    int edad;
-    String habitat;
-    String genero;
+    String nombre="None";
+    int edad= 0;
+    String habitat="None";
+    String genero="None";
     private Zona[] zona= new Zona[1];
 
     public Animal(){

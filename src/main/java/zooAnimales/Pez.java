@@ -4,8 +4,8 @@ public class Pez extends Animal{
     private ArrayList<Pez> listado;
     public static int salmones;
     public static int bacalaos;
-    private String colorEscamas;
-    private int cantidadAletas;
+    private String colorEscamas="None";
+    private int cantidadAletas=0;
     public Pez(){
         listado.add(this);
     }

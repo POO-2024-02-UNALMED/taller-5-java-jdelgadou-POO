@@ -4,8 +4,8 @@ public class Mamifero extends Animal{
     private ArrayList<Mamifero> listado;
     public static int caballos;
     public static int leones;
-    private Boolean pelaje;
-    private int patas;
+    private Boolean pelaje=false;
+    private int patas=0;
 
     public Mamifero(){
         listado.add(this);
